@@ -1,0 +1,103 @@
+img:hover{
+  outline: 4px solid white;
+  outline-offset: -4px;
+}
+
+.AttackBox{
+  background-color: #24242D;
+  margin-left: 25px;
+  width: 560px;
+  max-width:600px;
+  height: auto;
+  position: absolute;
+  border-radius:8px;
+  padding-top:10px;
+   padding-left:10px;
+}
+
+.AttackBox img{
+  width:75px;
+  height:10%;
+}
+
+.DefenseBox{
+  background-color: #24242D;
+  margin-left: 25px;
+  margin-top: 375px;
+  width: 560px;
+  max-width:600px;
+  height: auto;
+  position: absolute;
+  border-radius:8px;
+  padding-top:10px;
+   padding-left:10px;
+}
+
+.DefenseBox img{
+  width:75px;
+  height:75px;
+}
+
+.attack{
+  margin-left: 700px;
+  margin-top: 85px;
+  position: absolute;
+  background-color:#1A1C1F;
+  border: none;
+  padding: 15px 32px;
+ 
+}
+
+.defend{
+  margin-left: 700px;
+  margin-top: 455px;
+  position: absolute;
+  background-color:#1A1C1F;
+  border: none;
+  padding: 15px 32px;
+ 
+}
+
+.howToBox{
+  postion:absolute;
+  text-align: center;
+  background-color: #24242D;
+  width: 500px;
+  margin-left:35.5%;
+  border-style: solid;
+  border-radius: 8px;
+  border-width: 1px;
+  padding-top: 9px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+body {
+  background-color: #1A1C1F;
+  postion: relative:
+}
+
+
+.output {
+  postion: absolute;
+  margin-top: 25px;
+  margin-left: 1050px;
+  margin-right: 25px;
+  background-color: #24242D;
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  height: 690px;
+  border-style: none;
+  border-radius: 8px;
+  border-width: 1px;
+  border-color:black;
+  color:#BABABA;
+  min-width:630px;
+}
+
+button {
+ background-color:#1A1C1F;
+ border: none;
+}
+
