@@ -1,5 +1,4 @@
-var operators_attackers = Array("Sledge"//, "Thatcher", "Ash", "Thermite", "Twitch", "Montagne", "Glaz", "Fuze", "IQ" , "Blitz","Buck","Blackbeard","Capitao","Hibana", "Jackal", "Ying", "Zofia", "Dokkaebi", "Lion", "Finka", "Maverick", "Nomad", "Gridlock", "Nokk", "Amaru", "Kali", "Iana", "Ace", "Zero"
-                               );
+var operators_attackers = Array("Sledge", "Thatcher", "Ash", "Thermite", "Twitch", "Montagne", "Glaz", "Fuze", "IQ" , "Blitz","Buck","Blackbeard","Capitao","Hibana", "Jackal", "Ying", "Zofia", "Dokkaebi", "Lion", "Finka", "Maverick", "Nomad", "Gridlock", "Nokk", "Amaru", "Kali", "Iana", "Ace", "Zero");
 
 var operators_defenders = Array("Smoke", "Mute", "Castle", "Pulse", "Doc", "Rook", "Kapkan", "Tachanka", "Jäger", "Bandit", "Frost", "Valkyrie", "Caveira", "Echo", "Mira", "Lesion", "Ela", "Vigil", "Maestro", "Alibi", "Clash", "Kaid", "Mozzie", "Warden", "Goyo", "Wamai", "Oryx", "Melusi", "Aruni");
 
