@@ -29,7 +29,7 @@ randomWeapon = function (operator) {
       document.getElementById("prim").innerHTML = primary;
       randomPrimaryAttachments(operator, primary);
     gadgets = Array("Frag Grenade", "Stun Grenade");
-    gadget = gadgets[Math.floor(Math.random() * primaries.length)];
+    gadget = gadgets[Math.floor(Math.random() *gadgets.length)];
       document.getElementById("gadget").innerHTML = gadget;
   }
   else if(operator == "Thatcher") {
@@ -38,7 +38,7 @@ randomWeapon = function (operator) {
       document.getElementById("prim").innerHTML = primary;
       randomPrimaryAttachments(operator, primary);
      gadgets = Array("Breach Charge", "Claymore");
-    gadget = gadgets[Math.floor(Math.random() * primaries.length)];
+    gadget = gadgets[Math.floor(Math.random() * gadgets.length)];
       document.getElementById("gadget").innerHTML = gadget;
   }
   else if(operator == "Ash") {
@@ -47,7 +47,7 @@ randomWeapon = function (operator) {
       document.getElementById("prim").innerHTML = primary;
       randomPrimaryAttachments(operator, primary);
     gadgets = Array("Breach Charge", "Claymore");
-    gadget = gadgets[Math.floor(Math.random() * primaries.length)];
+    gadget = gadgets[Math.floor(Math.random() * gadgets.length)];
       document.getElementById("gadget").innerHTML = gadget;
   }
   else if(operator == "Thermite") {
@@ -56,7 +56,7 @@ randomWeapon = function (operator) {
       document.getElementById("prim").innerHTML = primary;
       randomPrimaryAttachments(operator, primary);
     gadgets = Array("Stun Grenade", "Claymore");
-    gadget = gadgets[Math.floor(Math.random() * primaries.length)];
+    gadget = gadgets[Math.floor(Math.random() * gadgets.length)];
       document.getElementById("gadget").innerHTML = gadget;
   }
   else if(operator == "Twitch") {
@@ -65,7 +65,7 @@ randomWeapon = function (operator) {
       document.getElementById("prim").innerHTML = primary;
       randomPrimaryAttachments(operator, primary);
     gadgets = Array("Stun Grenade", "Claymore");
-    gadget = gadgets[Math.floor(Math.random() * primaries.length)];
+    gadget = gadgets[Math.floor(Math.random() * gadgets.length)];
       document.getElementById("gadget").innerHTML = gadget;
   }
   else if(operator == "Montagne") {
@@ -74,7 +74,7 @@ randomWeapon = function (operator) {
       document.getElementById("prim").innerHTML = primary;
       randomPrimaryAttachments(operator, primary);
     gadgets = Array("Stun Grenade", "Smoke Grenade");
-    gadget = gadgets[Math.floor(Math.random() * primaries.length)];
+    gadget = gadgets[Math.floor(Math.random() * gadgets.length)];
       document.getElementById("gadget").innerHTML = gadget;
   }
   else if(operator == "Glaz") {
@@ -82,7 +82,7 @@ randomWeapon = function (operator) {
       document.getElementById("prim").innerHTML = primary;
       randomPrimaryAttachments(operator, primary);
     gadgets = Array("Smoke Grenade", "Frag Grenade");
-    gadget = gadgets[Math.floor(Math.random() * primaries.length)];
+    gadget = gadgets[Math.floor(Math.random() * gadgets.length)];
       document.getElementById("gadget").innerHTML = gadget;
   }
   else if(operator == "Fuze") {
@@ -91,7 +91,7 @@ randomWeapon = function (operator) {
       document.getElementById("prim").innerHTML = primary;
       randomPrimaryAttachments(operator, primary);
     gadgets = Array("Breach Charge", "Smoke Grenade");
-    gadget = gadgets[Math.floor(Math.random() * primaries.length)];
+    gadget = gadgets[Math.floor(Math.random() * gadgets.length)];
       document.getElementById("gadget").innerHTML = gadget;
   }
   else if(operator == "Blitz") {
@@ -99,7 +99,7 @@ randomWeapon = function (operator) {
       document.getElementById("prim").innerHTML = primary;
       randomPrimaryAttachments(operator, primary);
     gadgets = Array("Breach Charge", "Smoke Grenade");
-    gadget = gadgets[Math.floor(Math.random() * primaries.length)];
+    gadget = gadgets[Math.floor(Math.random() * gadgets.length)];
       document.getElementById("gadget").innerHTML = gadget;
   }
   else if(operator == "IQ") {
@@ -108,7 +108,7 @@ randomWeapon = function (operator) {
       document.getElementById("prim").innerHTML = primary;
       randomPrimaryAttachments(operator, primary);
     gadgets = Array("Breach Charge", "Claymore");
-    gadget = gadgets[Math.floor(Math.random() * primaries.length)];
+    gadget = gadgets[Math.floor(Math.random() * gadgets.length)];
       document.getElementById("gadget").innerHTML = gadget;
   }
   else if(operator == "Buck") {
@@ -117,7 +117,7 @@ randomWeapon = function (operator) {
       document.getElementById("prim").innerHTML = primary;
       randomPrimaryAttachments(operator, primary);
     gadgets = Array("Hard Breach Charge", "Stun Grenade");
-    gadget = gadgets[Math.floor(Math.random() * primaries.length)];
+    gadget = gadgets[Math.floor(Math.random() *gadgets.length)];
       document.getElementById("gadget").innerHTML = gadget;
   }
   else if(operator == "Blackbeard") {
@@ -126,7 +126,7 @@ randomWeapon = function (operator) {
       document.getElementById("prim").innerHTML = primary;
       randomPrimaryAttachments(operator, primary);
     gadgets = Array("Breach Charge", "Stun Grenade");
-    gadget = gadgets[Math.floor(Math.random() * primaries.length)];
+    gadget = gadgets[Math.floor(Math.random() * gadgets.length)];
       document.getElementById("gadget").innerHTML = gadget;
   }
   else if(operator == "Capitao") {
@@ -135,7 +135,7 @@ randomWeapon = function (operator) {
       document.getElementById("prim").innerHTML = primary;
       randomPrimaryAttachments(operator, primary);
     gadgets = Array("Hard Breach Charge", "Claymore");
-    gadget = gadgets[Math.floor(Math.random() * primaries.length)];
+    gadget = gadgets[Math.floor(Math.random() * gadgets.length)];
       document.getElementById("gadget").innerHTML = gadget;
   }
   else if(operator == "Hibana") {
@@ -144,7 +144,7 @@ randomWeapon = function (operator) {
       document.getElementById("prim").innerHTML = primary;
       randomPrimaryAttachments(operator, primary);
     gadgets = Array("Breach Charge", "Stung Grenade");
-    gadget = gadgets[Math.floor(Math.random() * primaries.length)];
+    gadget = gadgets[Math.floor(Math.random() * gadgets.length)];
       document.getElementById("gadget").innerHTML = gadget;
   }
   else if(operator == "Jackal") {
@@ -153,7 +153,7 @@ randomWeapon = function (operator) {
       document.getElementById("prim").innerHTML = primary;
       randomPrimaryAttachments(operator, primary);
     gadgets = Array("Smoke Grenade", "Claymore");
-    gadget = gadgets[Math.floor(Math.random() * primaries.length)];
+    gadget = gadgets[Math.floor(Math.random() * gadgets.length)];
       document.getElementById("gadget").innerHTML = gadget;
   }
   else if(operator == "Ying") {
@@ -162,7 +162,7 @@ randomWeapon = function (operator) {
       document.getElementById("prim").innerHTML = primary;
       randomPrimaryAttachments(operator, primary);
     gadgets = Array("Hard Breach Charge", "Smoke Grenade");
-    gadget = gadgets[Math.floor(Math.random() * primaries.length)];
+    gadget = gadgets[Math.floor(Math.random() * gadgets.length)];
       document.getElementById("gadget").innerHTML = gadget;
   }
   else if(operator == "Zofia") {
@@ -171,7 +171,7 @@ randomWeapon = function (operator) {
       document.getElementById("prim").innerHTML = primary;
       randomPrimaryAttachments(operator, primary);
     gadgets = Array("Breach Charge", "Claymore");
-    gadget = gadgets[Math.floor(Math.random() * primaries.length)];
+    gadget = gadgets[Math.floor(Math.random() * gadgets.length)];
       document.getElementById("gadget").innerHTML = gadget;
   }
   else if(operator == "Dokkaebi") {
@@ -180,7 +180,7 @@ randomWeapon = function (operator) {
       document.getElementById("prim").innerHTML = primary;
       randomPrimaryAttachments(operator, primary);
     gadgets = Array("Smoke Grenade", "Frag Grenade");
-    gadget = gadgets[Math.floor(Math.random() * primaries.length)];
+    gadget = gadgets[Math.floor(Math.random() * gadgets.length)];
       document.getElementById("gadget").innerHTML = gadget;
   }
   else if(operator == "Lion") {
@@ -189,7 +189,7 @@ randomWeapon = function (operator) {
       document.getElementById("prim").innerHTML = primary;
       randomPrimaryAttachments(operator, primary);
     gadgets = Array("Stun Grenade", "Claymore");
-    gadget = gadgets[Math.floor(Math.random() * primaries.length)];
+    gadget = gadgets[Math.floor(Math.random() * gadgets.length)];
       document.getElementById("gadget").innerHTML = gadget;
   }
   else if(operator == "Finka") {
@@ -198,7 +198,7 @@ randomWeapon = function (operator) {
       document.getElementById("prim").innerHTML = primary;
       randomPrimaryAttachments(operator, primary);
     gadgets = Array("Hard Breach Charge", "Frag Grenade");
-    gadget = gadgets[Math.floor(Math.random() * primaries.length)];
+    gadget = gadgets[Math.floor(Math.random() * gadgets.length)];
       document.getElementById("gadget").innerHTML = gadget;
   }
   else if(operator == "Maverick") {
@@ -207,7 +207,7 @@ randomWeapon = function (operator) {
       document.getElementById("prim").innerHTML = primary;
       randomPrimaryAttachments(operator, primary);
     gadgets = Array("Frag Grenade", "Claymore");
-    gadget = gadgets[Math.floor(Math.random() * primaries.length)];
+    gadget = gadgets[Math.floor(Math.random() * gadgets.length)];
       document.getElementById("gadget").innerHTML = gadget;
   }
   else if(operator == "Nomad") {
@@ -216,7 +216,7 @@ randomWeapon = function (operator) {
       document.getElementById("prim").innerHTML = primary;
       randomPrimaryAttachments(operator, primary);
     gadgets = Array("Breach Charge", "Stun");
-    gadget = gadgets[Math.floor(Math.random() * primaries.length)];
+    gadget = gadgets[Math.floor(Math.random() * gadgets.length)];
       document.getElementById("gadget").innerHTML = gadget;
   }
   else if(operator == "Gridlock") {
@@ -225,7 +225,7 @@ randomWeapon = function (operator) {
       document.getElementById("prim").innerHTML = primary;
       randomPrimaryAttachments(operator, primary);
     gadgets = Array("Breach Charge", "Smoke Grenade");
-    gadget = gadgets[Math.floor(Math.random() * primaries.length)];
+    gadget = gadgets[Math.floor(Math.random() * gadgets.length)];
       document.getElementById("gadget").innerHTML = gadget;
   }
   else if(operator == "Nokk") {
@@ -234,7 +234,7 @@ randomWeapon = function (operator) {
       document.getElementById("prim").innerHTML = primary;
       randomPrimaryAttachments(operator, primary);
     gadgets = Array("Hard Breach Charge", "Frag Grenade");
-    gadget = gadgets[Math.floor(Math.random() * primaries.length)];
+    gadget = gadgets[Math.floor(Math.random() * gadgets.length)];
       document.getElementById("gadget").innerHTML = gadget;
   }
   else if(operator == "Amaru") {
@@ -243,7 +243,7 @@ randomWeapon = function (operator) {
       document.getElementById("prim").innerHTML = primary;
       randomPrimaryAttachments(operator, primary);
     gadgets = Array("Hard Breach Charge", "Stun Grenade");
-    gadget = gadgets[Math.floor(Math.random() * primaries.length)];
+    gadget = gadgets[Math.floor(Math.random() * gadgets.length)];
       document.getElementById("gadget").innerHTML = gadget;
   }
   else if(operator == "Kali") {
@@ -252,7 +252,7 @@ randomWeapon = function (operator) {
       document.getElementById("prim").innerHTML = primary;
       randomPrimaryAttachments(operator, primary);
     gadgets = Array("Breach Charge", "Claymore");
-    gadget = gadgets[Math.floor(Math.random() * primaries.length)];
+    gadget = gadgets[Math.floor(Math.random() * gadgets.length)];
       document.getElementById("gadget").innerHTML = gadget;
   }
   
@@ -262,7 +262,7 @@ randomWeapon = function (operator) {
       document.getElementById("prim").innerHTML = primary;
       randomPrimaryAttachments(operator, primary);
     gadgets = Array("Frag Grenade", "Smoke Grenade");
-    gadget = gadgets[Math.floor(Math.random() * primaries.length)];
+    gadget = gadgets[Math.floor(Math.random() * gadgets.length)];
       document.getElementById("gadget").innerHTML = gadget;
   }
   
@@ -272,7 +272,7 @@ randomWeapon = function (operator) {
       document.getElementById("prim").innerHTML = primary;
       randomPrimaryAttachments(operator, primary);
     gadgets = Array("Breach Charge", "Smoke Grenade");
-    gadget = gadgets[Math.floor(Math.random() * primaries.length)];
+    gadget = gadgets[Math.floor(Math.random() * gadgets.length)];
       document.getElementById("gadget").innerHTML = gadget;
   }
   else if(operator == "Zero") {
@@ -281,7 +281,7 @@ randomWeapon = function (operator) {
       document.getElementById("prim").innerHTML = primary;
       randomPrimaryAttachments(operator, primary);
     gadgets = Array("Hard Breach Charge", "Claymore");
-    gadget = gadgets[Math.floor(Math.random() * primaries.length)];
+    gadget = gadgets[Math.floor(Math.random() * gadgets.length)];
       document.getElementById("gadget").innerHTML = gadget;
   }
   if(operator == "Smoke") {
@@ -290,7 +290,7 @@ randomWeapon = function (operator) {
       document.getElementById("prim").innerHTML = primary;
       randomPrimaryAttachments(operator, primary);
     gadgets = Array("Barbed Wire", "Deployable Shield");
-    gadget = gadgets[Math.floor(Math.random() * primaries.length)];
+    gadget = gadgets[Math.floor(Math.random() * gadgets.length)];
       document.getElementById("gadget").innerHTML = gadget;
   }
   if(operator == "Mute") {
@@ -299,7 +299,7 @@ randomWeapon = function (operator) {
       document.getElementById("prim").innerHTML = primary;
       randomPrimaryAttachments(operator, primary);
     gadgets = Array("Nitro Cell", "Bulletproof Camera");
-    gadget = gadgets[Math.floor(Math.random() * primaries.length)];
+    gadget = gadgets[Math.floor(Math.random() * gadgets.length)];
       document.getElementById("gadget").innerHTML = gadget;
   }
    if(operator == "Castle") {
@@ -308,7 +308,7 @@ randomWeapon = function (operator) {
       document.getElementById("prim").innerHTML = primary;
       randomPrimaryAttachments(operator, primary);
     gadgets = Array("Proximity Alarm", "Bulletproof Camera");
-    gadget = gadgets[Math.floor(Math.random() * primaries.length)];
+    gadget = gadgets[Math.floor(Math.random() * gadgets.length)];
       document.getElementById("gadget").innerHTML = gadget;
   }
   if(operator == "Pulse") {
@@ -317,7 +317,7 @@ randomWeapon = function (operator) {
       document.getElementById("prim").innerHTML = primary;
       randomPrimaryAttachments(operator, primary);
      gadgets = Array("Nitro Cell", "Barbed Wire");
-    gadget = gadgets[Math.floor(Math.random() * primaries.length)];
+    gadget = gadgets[Math.floor(Math.random() * gadgets.length)];
       document.getElementById("gadget").innerHTML = gadget;
   }
   if(operator == "Doc") {
@@ -326,7 +326,7 @@ randomWeapon = function (operator) {
       document.getElementById("prim").innerHTML = primary;
       randomPrimaryAttachments(operator, primary);
      gadgets = Array("Barbed Wire", "Bulletproof Camera");
-    gadget = gadgets[Math.floor(Math.random() * primaries.length)];
+    gadget = gadgets[Math.floor(Math.random() * gadgets.length)];
       document.getElementById("gadget").innerHTML = gadget;
   }
   if(operator == "Rook") {
@@ -335,7 +335,7 @@ randomWeapon = function (operator) {
       document.getElementById("prim").innerHTML = primary;
       randomPrimaryAttachments(operator, primary);
      gadgets = Array("Impact Grenade", "Proximity Alarm");
-    gadget = gadgets[Math.floor(Math.random() * primaries.length)];
+    gadget = gadgets[Math.floor(Math.random() * gadgets.length)];
       document.getElementById("gadget").innerHTML = gadget;
   }
   if(operator == "Kapkan") {
@@ -344,7 +344,7 @@ randomWeapon = function (operator) {
       document.getElementById("prim").innerHTML = primary;
       randomPrimaryAttachments(operator, primary);
      gadgets = Array("Nitro Cell", "Impact Grenade");
-    gadget = gadgets[Math.floor(Math.random() * primaries.length)];
+    gadget = gadgets[Math.floor(Math.random() * gadgets.length)];
       document.getElementById("gadget").innerHTML = gadget;
   }
   if(operator == "Tachanka") {
@@ -353,7 +353,7 @@ randomWeapon = function (operator) {
       document.getElementById("prim").innerHTML = primary;
       randomPrimaryAttachments(operator, primary);
      gadgets = Array("Barbed Wire", "Proximity Alarm");
-    gadget = gadgets[Math.floor(Math.random() * primaries.length)];
+    gadget = gadgets[Math.floor(Math.random() * gadgets.length)];
       document.getElementById("gadget").innerHTML = gadget;
   }
    if(operator == "Jäger") {
@@ -362,7 +362,7 @@ randomWeapon = function (operator) {
       document.getElementById("prim").innerHTML = primary;
       randomPrimaryAttachments(operator, primary);
       gadgets = Array("Barbed Wire", "Bulletproof Camera");
-    gadget = gadgets[Math.floor(Math.random() * primaries.length)];
+    gadget = gadgets[Math.floor(Math.random() * gadgets.length)];
       document.getElementById("gadget").innerHTML = gadget;
   }
    if(operator == "Bandit") {
@@ -371,7 +371,7 @@ randomWeapon = function (operator) {
       document.getElementById("prim").innerHTML = primary;
       randomPrimaryAttachments(operator, primary);
       gadgets = Array("Nitro Cell", "Barbed Wire");
-    gadget = gadgets[Math.floor(Math.random() * primaries.length)];
+    gadget = gadgets[Math.floor(Math.random() * gadgets.length)];
       document.getElementById("gadget").innerHTML = gadget;
   }
    if(operator == "Frost") {
@@ -380,7 +380,7 @@ randomWeapon = function (operator) {
       document.getElementById("prim").innerHTML = primary;
       randomPrimaryAttachments(operator, primary);
       gadgets = Array("Deployable Shield", "Bulletproof Camera");
-    gadget = gadgets[Math.floor(Math.random() * primaries.length)];
+    gadget = gadgets[Math.floor(Math.random() * gadgets.length)];
       document.getElementById("gadget").innerHTML = gadget;
   }
   if(operator == "Valkyrie") {
@@ -389,7 +389,7 @@ randomWeapon = function (operator) {
       document.getElementById("prim").innerHTML = primary;
       randomPrimaryAttachments(operator, primary);
      gadgets = Array("Nitro Cell", "Impact Grenade");
-    gadget = gadgets[Math.floor(Math.random() * primaries.length)];
+    gadget = gadgets[Math.floor(Math.random() * gadgets.length)];
       document.getElementById("gadget").innerHTML = gadget;
   }
   if(operator == "Caveira") {
@@ -398,7 +398,7 @@ randomWeapon = function (operator) {
       document.getElementById("prim").innerHTML = primary;
       randomPrimaryAttachments(operator, primary);
      gadgets = Array("Impact Grenade", "Proximity Alarm");
-    gadget = gadgets[Math.floor(Math.random() * primaries.length)];
+    gadget = gadgets[Math.floor(Math.random() * gadgets.length)];
       document.getElementById("gadget").innerHTML = gadget;
   }
   if(operator == "Echo") {
@@ -407,7 +407,7 @@ randomWeapon = function (operator) {
       document.getElementById("prim").innerHTML = primary;
       randomPrimaryAttachments(operator, primary);
      gadgets = Array("Impact Grenade", "Deployable Shield");
-    gadget = gadgets[Math.floor(Math.random() * primaries.length)];
+    gadget = gadgets[Math.floor(Math.random() * gadgets.length)];
       document.getElementById("gadget").innerHTML = gadget;
   }
   if(operator == "Mira") {
@@ -416,7 +416,7 @@ randomWeapon = function (operator) {
       document.getElementById("prim").innerHTML = primary;
       randomPrimaryAttachments(operator, primary);
      gadgets = Array("Proximity Alarm", "Nitro Cell");
-    gadget = gadgets[Math.floor(Math.random() * primaries.length)];
+    gadget = gadgets[Math.floor(Math.random() * gadgets.length)];
       document.getElementById("gadget").innerHTML = gadget;
   }
   if(operator == "Lesion") {
@@ -425,7 +425,7 @@ randomWeapon = function (operator) {
       document.getElementById("prim").innerHTML = primary;
       randomPrimaryAttachments(operator, primary);
      gadgets = Array("Impact Grenade", "Bulletproof Camera");
-    gadget = gadgets[Math.floor(Math.random() * primaries.length)];
+    gadget = gadgets[Math.floor(Math.random() * gadgets.length)];
       document.getElementById("gadget").innerHTML = gadget;
   }
   if(operator == "Ela") {
@@ -434,7 +434,7 @@ randomWeapon = function (operator) {
       document.getElementById("prim").innerHTML = primary;
       randomPrimaryAttachments(operator, primary);
      gadgets = Array("Barbed Wire", "Deployable Shield");
-    gadget = gadgets[Math.floor(Math.random() * primaries.length)];
+    gadget = gadgets[Math.floor(Math.random() * gadgets.length)];
       document.getElementById("gadget").innerHTML = gadget;
   }
   if(operator == "Vigil") {
@@ -443,7 +443,7 @@ randomWeapon = function (operator) {
       document.getElementById("prim").innerHTML = primary;
       randomPrimaryAttachments(operator, primary);
      gadgets = Array("Impact Grenade", "Bulletproof Camera");
-    gadget = gadgets[Math.floor(Math.random() * primaries.length)];
+    gadget = gadgets[Math.floor(Math.random() * gadgets.length)];
       document.getElementById("gadget").innerHTML = gadget;
   }
   if(operator == "Maestro") {
@@ -452,7 +452,7 @@ randomWeapon = function (operator) {
       document.getElementById("prim").innerHTML = primary;
       randomPrimaryAttachments(operator, primary);
      gadgets = Array("Barbed Wire", "Impact Grenade");
-    gadget = gadgets[Math.floor(Math.random() * primaries.length)];
+    gadget = gadgets[Math.floor(Math.random() * gadgets.length)];
       document.getElementById("gadget").innerHTML = gadget;
   }
   if(operator == "Alibi") {
@@ -461,7 +461,7 @@ randomWeapon = function (operator) {
       document.getElementById("prim").innerHTML = primary;
       randomPrimaryAttachments(operator, primary);
      gadgets = Array("Impact Grenade", "Deployable Shield");
-    gadget = gadgets[Math.floor(Math.random() * primaries.length)];
+    gadget = gadgets[Math.floor(Math.random() * gadgets.length)];
       document.getElementById("gadget").innerHTML = gadget;
   }
   if(operator == "Clash") {
@@ -470,7 +470,7 @@ randomWeapon = function (operator) {
       document.getElementById("prim").innerHTML = primary;
       randomPrimaryAttachments(operator, primary);
      gadgets = Array("Impact Grenade", "Barbed Wire");
-    gadget = gadgets[Math.floor(Math.random() * primaries.length)];
+    gadget = gadgets[Math.floor(Math.random() * gadgets.length)];
       document.getElementById("gadget").innerHTML = gadget;
   }
   if(operator == "Kaid") {
@@ -479,7 +479,7 @@ randomWeapon = function (operator) {
       document.getElementById("prim").innerHTML = primary;
       randomPrimaryAttachments(operator, primary);
      gadgets = Array("Nitro Cell", "Barbed Wire");
-    gadget = gadgets[Math.floor(Math.random() * primaries.length)];
+    gadget = gadgets[Math.floor(Math.random() * gadgets.length)];
       document.getElementById("gadget").innerHTML = gadget;
   }
   if(operator == "Mozzie") {
@@ -488,7 +488,7 @@ randomWeapon = function (operator) {
       document.getElementById("prim").innerHTML = primary;
       randomPrimaryAttachments(operator, primary);
     gadgets = Array("Nitro Cell", "Barbed Wire");
-    gadget = gadgets[Math.floor(Math.random() * primaries.length)];
+    gadget = gadgets[Math.floor(Math.random() * gadgets.length)];
       document.getElementById("gadget").innerHTML = gadget;
   }
   if(operator == "Warden") {
@@ -497,7 +497,7 @@ randomWeapon = function (operator) {
       document.getElementById("prim").innerHTML = primary;
       randomPrimaryAttachments(operator, primary);
      gadgets = Array("Nitro Cell", "Deployable Shield");
-    gadget = gadgets[Math.floor(Math.random() * primaries.length)];
+    gadget = gadgets[Math.floor(Math.random() * gadgets.length)];
       document.getElementById("gadget").innerHTML = gadget;
   }
   if(operator == "Goyo") {
@@ -506,7 +506,7 @@ randomWeapon = function (operator) {
       document.getElementById("prim").innerHTML = primary;
       randomPrimaryAttachments(operator, primary);
     gadgets = Array("Nitro Cell", "Proximity Alarm");
-    gadget = gadgets[Math.floor(Math.random() * primaries.length)];
+    gadget = gadgets[Math.floor(Math.random() * gadgets.length)];
       document.getElementById("gadget").innerHTML = gadget;
   }
   if(operator == "Wamai") {
@@ -515,7 +515,7 @@ randomWeapon = function (operator) {
       document.getElementById("prim").innerHTML = primary;
       randomPrimaryAttachments(operator, primary);
     gadgets = Array("Impact Grenade", "Proximity Alarm");
-    gadget = gadgets[Math.floor(Math.random() * primaries.length)];
+    gadget = gadgets[Math.floor(Math.random() * gadgets.length)];
       document.getElementById("gadget").innerHTML = gadget;
   }
   if(operator == "Oryx") {
@@ -524,7 +524,7 @@ randomWeapon = function (operator) {
       document.getElementById("prim").innerHTML = primary;
       randomPrimaryAttachments(operator, primary);
     gadgets = Array("Barbed Wire", "Proximity Alarm");
-    gadget = gadgets[Math.floor(Math.random() * primaries.length)];
+    gadget = gadgets[Math.floor(Math.random() * gadgets.length)];
       document.getElementById("gadget").innerHTML = gadget;
   }
   if(operator == "Melusi") {
@@ -533,7 +533,7 @@ randomWeapon = function (operator) {
       document.getElementById("prim").innerHTML = primary;
       randomPrimaryAttachments(operator, primary);
     gadgets = Array("Nitro Cell", "Impact Grenade");
-    gadget = gadgets[Math.floor(Math.random() * primaries.length)];
+    gadget = gadgets[Math.floor(Math.random() * gadgets.length)];
       document.getElementById("gadget").innerHTML = gadget;
   }
   if(operator == "Aruni") {
@@ -542,7 +542,7 @@ randomWeapon = function (operator) {
       document.getElementById("prim").innerHTML = primary;
       randomPrimaryAttachments(operator, primary);
     gadgets = Array("Bulletproof Camera", "Barbed Wire");
-    gadget = gadgets[Math.floor(Math.random() * primaries.length)];
+    gadget = gadgets[Math.floor(Math.random() * gadgets.length)];
       document.getElementById("gadget").innerHTML = gadget;
   }
   
