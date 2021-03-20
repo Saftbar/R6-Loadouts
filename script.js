@@ -35,6 +35,7 @@ const operators_attackers = [
 	"Iana",
 	"Ace",
 	"Zero",
+  "Flores",
 ];
 
 const operators_defenders = [
@@ -369,6 +370,14 @@ randomWeapon = function (operator) {
 		document.getElementById("prim").innerHTML = primary;
 		randomPrimaryAttachments(operator, primary);
 		gadgets = Array("Hard Breach Charge", "Claymore");
+		gadget = gadgets[Math.floor(Math.random() * gadgets.length)];
+		document.getElementById("gadget").innerHTML = gadget;
+	}else if (operator == "Flores") {
+		var primaries = Array("AR33", "SR-25");
+		var primary = primaries[Math.floor(Math.random() * primaries.length)];
+		document.getElementById("prim").innerHTML = primary;
+		randomPrimaryAttachments(operator, primary);
+		gadgets = Array("Stun Grenade", "Claymore");
 		gadget = gadgets[Math.floor(Math.random() * gadgets.length)];
 		document.getElementById("gadget").innerHTML = gadget;
 	}
